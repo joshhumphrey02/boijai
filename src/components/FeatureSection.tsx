@@ -19,15 +19,9 @@ export function FeatureSection() {
                   className="text-green-600 mr-2 mt-1 flex-shrink-0"
                   size={20}
                 />
-                <span className="text-gray-700">Top Business facility</span>
-              </div>
-              <div className="flex items-start">
-                <CheckIcon
-                  className="text-green-600 mr-2 mt-1 flex-shrink-0"
-                  size={20}
-                />
                 <span className="text-gray-700">
-                  Over 100k+ update regularly
+                  Learn to build streamlined inventory systems that reduce
+                  losses and increase profitability in product-based businesses.
                 </span>
               </div>
               <div className="flex items-start">
@@ -35,12 +29,25 @@ export function FeatureSection() {
                   className="text-green-600 mr-2 mt-1 flex-shrink-0"
                   size={20}
                 />
-                <span className="text-gray-700">Expert agent consultation</span>
+                <span className="text-gray-700">
+                  Easily track stock, prevent waste, and manage operations
+                  remotely
+                </span>
+              </div>
+              <div className="flex items-start">
+                <CheckIcon
+                  className="text-green-600 mr-2 mt-1 flex-shrink-0"
+                  size={20}
+                />
+                <span className="text-gray-700">
+                  Finish with a ready-to-run system and the skills to support
+                  other businesses or earn extra income through consulting
+                </span>
               </div>
             </div>
           </div>
           <div className=" relative">
-            <div className="rounded-lg overflow-hidden bg-gray-900 relative h-32 md:h-full max-h-88">
+            <div className="rounded-lg overflow-hidden bg-gray-900 relative h-32 md:h-full max-h-96">
               <img
                 src="/play.png"
                 alt="Business professional using futuristic interface"
