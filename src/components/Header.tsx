@@ -24,12 +24,12 @@ export function Header() {
         </div>
       </div>
       {/* Navigation */}
-      <div className="flex justify-between items-center md:bg-[#23114a] shadow rounded-xl px-0 md:px-6 py-4 ">
+      <div className="flex justify-between items-center md:bg-[#23114a] shadow rounded-xl px-0 md:px-6 py-2 ">
         <div className="flex items-center">
           <div className="flex items-center gap-4 mr-12 md:mr-24">
             <img
               src="/light-logo.png"
-              className=" w-12 md:w-14 2xl:w-16 h-12 md:h-14 2xl:h-16 rounded-full object-cover"
+              className=" w-12 2xl:w-14 h-12 2xl:h-14 rounded-full object-cover"
             />
             <h3 className={" capitalize text-xl hidden md:flex font-bold"}>
               creative business solutions

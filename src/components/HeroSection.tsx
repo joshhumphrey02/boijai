@@ -8,12 +8,12 @@ export function HeroSection() {
     >
       <Header />
       <div className="text-center max-w-4xl mt-12 mx-auto relative z-10">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
+        <h1 className="text-3xl md:text-4xl 2xl:text-5xl font-bold mb-6">
           Experience <span className="italic font-light">Stress-Free</span>{" "}
           Business <br /> Management with Bowjai
         </h1>
 
-        <div className="flex flex-col mb-4 items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 mt-12">
+        <div className="flex flex-col mb-4 items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 mt-6 md:mt-8 2xl:mt-12">
           <h3 className="text-xl md:text-2xl font-bold">JOIN OUR BOOTCAMP</h3>
         </div>
         <div className="flex flex-row justify-center items-center gap-6">
