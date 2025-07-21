@@ -29,7 +29,7 @@ export function Header() {
           <div className="flex items-center gap-4 mr-12 md:mr-24">
             <img
               src="/light-logo.png"
-              className=" w-16 h-16 rounded-full object-cover"
+              className=" w-12 md:w-14 2xl:w-16 h-12 md:h-14 2xl:h-16 rounded-full object-cover"
             />
             <h3 className={" capitalize text-xl hidden md:flex font-bold"}>
               creative business solutions
