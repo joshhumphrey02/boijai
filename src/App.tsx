@@ -15,7 +15,7 @@ export default function App() {
         <HeroSection />
         <FeatureSection />
         <WhoIsThisFor />
-        <Features />
+        {/* <Features /> */}
         <WHY />
         <About />
         <Testimonials />

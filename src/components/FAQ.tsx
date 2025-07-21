@@ -8,29 +8,29 @@ export const FAQ = () => {
   const [openIndex, setOpenIndex] = useState<number>(0);
   const faqs: FAQItem[] = [
     {
-      question: "How does the dashboard help track coffee sales?",
+      question: "Who is this course designed for?",
       answer:
-        "The dashboard offers real-time insights into daily, weekly, and monthly sales, helping you stay on top of trends and performance.",
+        "It's perfect for product-based business owners, side hustlers, and anyone looking to learn inventory management as a profitable skill.",
     },
     {
-      question: "Can I manage inventory with this dashboard?",
+      question: "Do I need technical experience to enroll?",
       answer:
-        "Yes, our dashboard includes comprehensive inventory management features that let you track stock levels, set reorder points, and monitor product availability in real-time.",
+        "No prior tech skills are required. The course guides you step-by-step with easy-to-follow systems and real-world examples.",
     },
     {
-      question: "Can I track customer preferences?",
+      question: "What will I be able to do after completing the program?",
       answer:
-        "Absolutely! The dashboard collects and analyzes customer purchase patterns, allowing you to identify preferences and tailor your offerings accordingly.",
+        "You'll have a fully functional inventory system for your business, plus the know-how to offer inventory consulting to others for extra income.",
     },
     {
-      question: "Can the dashboard track daily sales performance?",
+      question: "Can this work for my business if I still work a 9-5?",
       answer:
-        "Yes, the dashboard provides detailed daily sales reports with hourly breakdowns, allowing you to identify peak selling times and optimize staffing accordingly.",
+        "Yes! The system is designed for remote tracking, automation, and low-maintenance control—perfect for busy professionals.",
     },
     {
-      question: "Can I export sales reports?",
+      question: "Will I get templates or tools to help with setup?",
       answer:
-        "Yes, all reports can be exported in multiple formats including PDF, CSV, and Excel for easy sharing and further analysis in your preferred tools.",
+        "Absolutely. You’ll receive plug-and-play templates and guided walkthroughs to get your inventory system up and running smoothly.",
     },
   ];
   const toggleFAQ = (index: number) => {

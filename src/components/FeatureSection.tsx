@@ -1,7 +1,7 @@
 import { CheckIcon } from "lucide-react";
 export function FeatureSection() {
   return (
-    <section className="px-6 lg:px-20 -mt-44 relative z-10">
+    <section className="px-6 lg:px-20 -mt-20 md:-mt-44 relative z-10">
       <div className="bg-white rounded-lg shadow-xl p-8 md:p-12 max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-4">
           <div className=" pr-0 md:pr-8 mb-8 md:mb-0">
@@ -46,7 +46,7 @@ export function FeatureSection() {
               </div>
             </div>
           </div>
-          <div className=" relative">
+          <div className=" hidden md:flex relative">
             <div className="rounded-lg overflow-hidden bg-gray-900 relative h-32 md:h-full max-h-96">
               <img
                 src="/play.png"

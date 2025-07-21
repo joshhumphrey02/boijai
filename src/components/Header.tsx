@@ -7,7 +7,9 @@ export function Header() {
       {/* Top bar */}
       <div className="flex justify-between items-center py-4 text-sm ">
         <div>Call us +234 816 260 9973</div>
-        <div>Offers are on going. Jump right in</div>
+        <div className=" hidden md:flex">
+          Offers are on going. Jump right in
+        </div>
         <div className="hidden md:flex items-center space-x-4">
           <Separator
             orientation="vertical"
@@ -22,7 +24,7 @@ export function Header() {
         </div>
       </div>
       {/* Navigation */}
-      <div className="flex justify-between items-center bg-[#140335] shadow rounded-xl px-6 py-4 ">
+      <div className="flex justify-between items-center bg-[#140335] shadow rounded-xl px-0 md:px-6 py-4 ">
         <div className="flex items-center">
           <div className="flex items-center mr-12 md:mr-24">
             <img
