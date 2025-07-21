@@ -4,6 +4,7 @@ import { Features } from "./components/Features";
 import { Footer } from "./components/Footer";
 import { FAQ } from "./components/FAQ";
 import { WHY } from "./components/WHY";
+import About from "./components/About";
 export default function App() {
   return (
     <div className="flex flex-col w-full min-h-screen bg-white">
@@ -12,6 +13,7 @@ export default function App() {
         <FeatureSection />
         <Features />
         <WHY />
+        <About />
         <FAQ />
         <Footer />
       </main>
