@@ -9,35 +9,28 @@ export default function Testimonials() {
           We take pride in delivering exceptional solutions that deliver great
           results. But don’t just take our word for it.
         </p>
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-8 md:grid-cols-3 ">
           {[
             {
-              name: "William Ashford",
-              title: "Product Manager",
-              company: "Google",
+              name: "Jennifer",
+              title: "Luxury Hair Business",
+              location: "Kubwa, Abuja",
               testimonial:
-                "The analytics tools have transformed how we approach financial planning and forecasting.",
+                "Saw a dramatic reduction in employee theft after setting up her inventory management system. Now she knows exactly what comes in and goes out.",
             },
             {
-              name: "Laila Smith",
-              title: "Account Executive",
-              company: "Notion",
+              name: "Grace",
+              title: "Supermarket Owner",
+              location: "Wuse 2, Abuja",
               testimonial:
-                "The customer support has been outstanding. Quick, responsive, and super helpful.",
+                "Can now track goods before expiration. No more throwing away expired products—saving thousands monthly.",
             },
             {
-              name: "Samuel Kingsley",
-              title: "Financial Analyst",
-              company: "In Capital",
+              name: "Ebele",
+              title: "Civil Servant with Boutique",
+              location: "Jabi, Abuja",
               testimonial:
-                "The security features give us peace of mind knowing our customer data is safe.",
-            },
-            {
-              name: "Henry Stewart",
-              title: "Co-Founder",
-              company: "NextGen",
-              testimonial:
-                "The integration process was seamless—we were up and running in no time.",
+                "Can now access her business remotely. Knows what's sold, when, and who sold it—without depending on sales reps for reports while at the office.",
             },
           ].map((client, index) => (
             <div
@@ -49,9 +42,7 @@ export default function Testimonials() {
               </p>
               <div>
                 <p className="font-semibold text-gray-900">{client.name}</p>
-                <p className="text-sm text-gray-500">
-                  {client.title}, {client.company}
-                </p>
+                <p className="text-sm text-gray-500">{client.title}</p>
               </div>
             </div>
           ))}
