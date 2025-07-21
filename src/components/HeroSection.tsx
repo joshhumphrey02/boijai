@@ -7,33 +7,6 @@ export function HeroSection() {
       className="bg-cover bg-no-repeat bg-bottom h-[80dvh] text-white px-6 pb-20 lg:px-20 relative overflow-hidden"
     >
       <Header />
-      {/* Background wave effects */}
-      <div className="absolute inset-0 opacity-30">
-        <svg
-          className="absolute bottom-0 left-0"
-          viewBox="0 0 800 800"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M0,400 C150,500 350,300 500,400 C650,500 800,400 800,400 L800,800 L0,800 Z"
-            fill="none"
-            stroke="white"
-            strokeWidth="2"
-          />
-        </svg>
-        <svg
-          className="absolute bottom-0 left-0"
-          viewBox="0 0 800 800"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M0,450 C200,350 300,450 400,350 C500,250 600,350 800,300 L800,800 L0,800 Z"
-            fill="none"
-            stroke="white"
-            strokeWidth="2"
-          />
-        </svg>
-      </div>
       <div className="text-center max-w-4xl mt-32 mx-auto relative z-10">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
           Experience <span className="italic font-light">Stress-Free</span>{" "}
