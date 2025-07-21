@@ -7,7 +7,7 @@ export function HeroSection() {
       className="bg-cover bg-no-repeat bg-center md:bg-bottom h-[80dvh] text-white px-4 pb-20 lg:px-20 relative overflow-hidden"
     >
       <Header />
-      <div className="text-center max-w-4xl mt-12 md:mt-28 mx-auto relative z-10">
+      <div className="text-center max-w-4xl mt-12 mx-auto relative z-10">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
           Experience <span className="italic font-light">Stress-Free</span>{" "}
           Business <br /> Management with Bowjai

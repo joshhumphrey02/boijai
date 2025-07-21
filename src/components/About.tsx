@@ -38,7 +38,7 @@ export default function About() {
             <img
               src="/profile.jpg"
               alt="Portrait of Esther Oyeyemi Ogonniba"
-              className="rounded-xl shadow-lg w-[80%] h-auto max-h-[40rem] object-cover"
+              className="rounded-xl shadow-lg w-[80%] h-auto max-h-[32rem] object-cover"
             />
           </div>
         </div>
