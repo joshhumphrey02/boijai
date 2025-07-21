@@ -22,26 +22,13 @@ export function Header() {
         </div>
       </div>
       {/* Navigation */}
-      <div className="flex justify-between items-center bg-[#120035] shadow rounded-xl px-6 py-4 ">
+      <div className="flex justify-between items-center bg-[#140335] shadow rounded-xl px-6 py-4 ">
         <div className="flex items-center">
-          <div className="flex items-center mr-12">
-            <div className="bg-purple-600 p-1 rounded-full mr-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="text-white"
-              >
-                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
-              </svg>
-            </div>
-            <span className="text-xl font-bold">Bowjai</span>
+          <div className="flex items-center mr-12 md:mr-24">
+            <img
+              src="/trans-logo.png"
+              className=" w-16 h-16 rounded-full object-cover"
+            />
           </div>
           <nav className="hidden md:flex items-center space-x-8">
             <div className="flex items-center cursor-pointer">Home</div>
