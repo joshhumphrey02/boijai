@@ -4,11 +4,14 @@ export const Footer = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center mr-12">
+            <div className="flex items-center gap-4 mr-12">
               <img
                 src="/trans-logo.png"
                 className=" w-16 h-16 rounded-full object-cover"
               />
+              <h3 className={" capitalize text-xl font-bold"}>
+                creative business solutions
+              </h3>
             </div>
             <p className="mt-4 text-gray-600 text-sm md:w-[60%]">
               Monitor performance, track top-selling products, conversion rates,

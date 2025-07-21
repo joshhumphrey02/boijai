@@ -6,7 +6,7 @@ export function Header() {
     <header className="w-full max-w-7xl mx-auto text-white">
       {/* Top bar */}
       <div className="flex justify-between items-center py-4 text-sm ">
-        <div>Call us +234 816 260 9973</div>
+        <div>Call us +234 901 413 2309</div>
         <div className=" hidden md:flex">
           Offers are on going. Jump right in
         </div>
@@ -24,24 +24,32 @@ export function Header() {
         </div>
       </div>
       {/* Navigation */}
-      <div className="flex justify-between items-center bg-[#140335] shadow rounded-xl px-0 md:px-6 py-4 ">
+      <div className="flex justify-between items-center bg-[#23114a] shadow rounded-xl px-0 md:px-6 py-4 ">
         <div className="flex items-center">
-          <div className="flex items-center mr-12 md:mr-24">
+          <div className="flex items-center gap-4 mr-12 md:mr-24">
             <img
-              src="/trans-logo.png"
+              src="/light-logo.png"
               className=" w-16 h-16 rounded-full object-cover"
             />
+            <h3 className={" capitalize text-xl font-bold"}>
+              creative business solutions
+            </h3>
           </div>
-          <nav className="hidden md:flex items-center space-x-8">
+          {/* <nav className="hidden md:flex items-center space-x-8">
             <div className="flex items-center cursor-pointer">Home</div>
             <div className="cursor-pointer">Service</div>
             <div className="cursor-pointer">About Us</div>
-          </nav>
+          </nav> */}
         </div>
         <div className="flex items-center space-x-4">
-          <Button className="bg-purple-600 cursor-pointer hover:bg-purple-700 text-white px-4 py-1 rounded-md">
-            Get Started
-          </Button>
+          <a
+            href="https://wa.me/2349014132309?text=Hi%20Bowjai%20Team%2C%20I%27m%20interested%20in%20joining%20the%20Bowjai%20Creative%20Bootcamp%20Program.%20Please%20send%20me%20more%20details."
+            target="_blank"
+          >
+            <Button className="bg-purple-600 cursor-pointer hover:bg-purple-700 text-white px-4 py-1 rounded-md">
+              JOIN OUR BOOTCAMP
+            </Button>
+          </a>
         </div>
       </div>
     </header>

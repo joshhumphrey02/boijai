@@ -1,12 +1,13 @@
 import { CheckCircle } from "lucide-react";
+import { ContactCTA } from "./ContactCTA";
 export function WHY() {
   return (
     <div className="w-full min-h-screen bg-gray-50 text-gray-800 py-16 px-4">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-5xl font-light text-center mb-16">
-          Why You Should Consider Our Program
+        <h1 className="text-5xl font-bold text-center mb-16">
+          Why You Should Consider Our Bootcamp
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 mb-8 md:grid-cols-3 gap-10">
           <FeatureItem
             title="Expiration Alerts"
             description="Product Expiration Alerts Never lose money on expired products again with automated tracking and early warning systems."
@@ -29,6 +30,7 @@ export function WHY() {
             description="Better Cash Flow Management Know exactly what you have and when to reorder for optimal cash flow"
           />
         </div>
+        <ContactCTA />
       </div>
     </div>
   );
