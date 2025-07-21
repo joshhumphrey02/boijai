@@ -1,6 +1,6 @@
 export function ContactCTA() {
   return (
-    <section className="w-full bg-purple-600 max-w-6xl mx-auto mb-8 py-16 px-6 rounded-xl">
+    <section className="w-full bg-purple-600 max-w-6xl mx-auto mb-8 py-16 px-6 md:rounded-xl">
       <div className="max-w-5xl mx-auto text-center text-white">
         <h2 className="text-4xl font-bold mb-4">Let's Get You Started</h2>
         <p className="text-lg mb-8">

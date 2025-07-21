@@ -16,7 +16,7 @@ export function HeroSection() {
         <div className="flex flex-col mb-4 items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 mt-12">
           <h3 className="text-xl md:text-2xl font-bold">JOIN OUR BOOTCAMP</h3>
         </div>
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
+        <div className="flex flex-row justify-center items-center gap-6">
           <a
             href="https://wa.me/2349014132309?text=Hi%20Bowjai%20Team%2C%20I%27m%20interested%20in%20joining%20the%20Bowjai%20Creative%20Bootcamp%20Program.%20Please%20send%20me%20more%20details."
             target="_blank"
