@@ -3,11 +3,11 @@ export default function Testimonials() {
     <div className="w-full bg-gray-50 py-20 px-6">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-4xl font-semibold text-gray-800 mb-4">
-          What Our Clients Are Saying
+          Real Results from Real Businesses
         </h2>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
-          We take pride in delivering exceptional solutions that deliver great
-          results. But don’t just take our word for it.
+          These business owners transformed their operations with the exact
+          system you'll learn
         </p>
         <div className="grid gap-8 md:grid-cols-3 ">
           {[

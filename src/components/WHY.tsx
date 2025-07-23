@@ -5,7 +5,7 @@ export function WHY() {
     <div className="w-full min-h-screen bg-gray-50 text-gray-800 py-16 px-4">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-5xl font-bold text-center mb-16">
-          Why You Should Consider Our Bootcamp
+          Benefits you'll experience
         </h1>
         <div className="grid grid-cols-1 mb-8 md:grid-cols-3 gap-10">
           <FeatureItem

@@ -47,7 +47,7 @@ export function Header() {
             target="_blank"
           >
             <Button className="bg-purple-600 cursor-pointer hover:bg-purple-700 text-white px-4 py-1 rounded-md">
-              JOIN OUR BOOTCAMP
+              JOIN THE BOOTCAMP
             </Button>
           </a>
         </div>

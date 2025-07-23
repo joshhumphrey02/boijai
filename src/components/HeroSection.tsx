@@ -7,14 +7,18 @@ export function HeroSection() {
       className="bg-cover bg-no-repeat bg-center md:bg-bottom h-[80dvh] text-white px-4 pb-20 lg:px-20 relative overflow-hidden"
     >
       <Header />
-      <div className="text-center max-w-4xl mt-12 mx-auto relative z-10">
-        <h1 className="text-3xl md:text-4xl 2xl:text-5xl font-bold mb-6">
-          Experience <span className="italic font-light">Stress-Free</span>{" "}
-          Business <br /> Management with Bowjai
+      <div className="text-center max-w-4xl mt-16 mx-auto relative z-10">
+        <h4 className="text-xl md:text-2xl mb-3 ">
+          ATTENTION  PRODUCT-BASED  BUSINESS OWNERS 
+        </h4>
+        <h1 className="text-3xl md:text-4xl 2xl:text-5xl font-bold mb-4">
+          Stop Losing Money to Employee Theft & Poor Inventory Management
         </h1>
 
         <div className="flex flex-col mb-4 items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 mt-6 md:mt-8 2xl:mt-12">
-          <h3 className="text-xl md:text-2xl font-bold">JOIN OUR BOOTCAMP</h3>
+          <h3 className="text-xl md:text-2xl font-bold">
+            JOIN THE BOOTCAMP FOR ₦15,500
+          </h3>
         </div>
         <div className="flex flex-row justify-center items-center gap-6">
           <a

@@ -1,6 +1,5 @@
 import { HeroSection } from "./components/HeroSection";
 import { FeatureSection } from "./components/FeatureSection";
-import { Features } from "./components/Features";
 import { Footer } from "./components/Footer";
 import { FAQ } from "./components/FAQ";
 import { WHY } from "./components/WHY";
@@ -8,6 +7,8 @@ import About from "./components/About";
 import Testimonials from "./components/Testimonials";
 import WhoIsThisFor from "./components/WhoIsThisFor";
 import { ContactCTA } from "./components/ContactCTA";
+import CourseStructure from "./components/Features";
+import BootcampStructure from "./components/BootcampStructure";
 export default function App() {
   return (
     <div className="flex flex-col w-full min-h-screen bg-white">
@@ -15,8 +16,9 @@ export default function App() {
         <HeroSection />
         <FeatureSection />
         <WhoIsThisFor />
-        <Features />
         <WHY />
+        <CourseStructure />
+        <BootcampStructure />
         <About />
         <Testimonials />
         <FAQ />
