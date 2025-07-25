@@ -5,7 +5,7 @@ export function HeroSection() {
   return (
     <section
       style={{ backgroundImage: "url('/hero.png')" }}
-      className="bg-cover bg-no-repeat bg-center md:bg-bottom h-[80dvh] text-white px-4 pb-20 lg:px-20 relative overflow-hidden"
+      className="bg-cover bg-no-repeat bg-center md:bg-bottom md:h-[80dvh] text-white px-4 pb-20 lg:px-20 relative overflow-hidden"
     >
       <Header />
       <div className="text-center max-w-4xl mt-16 mx-auto relative z-10">
@@ -23,7 +23,7 @@ export function HeroSection() {
         <div className="flex flex-col mb-6 items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 mt-6 md:mt-8 2xl:mt-12">
           <a href="#contact">
             <Button className="bg-purple-600 cursor-pointer hover:bg-purple-700 text-white text-lg h-12 px-4 py-3 rounded-md">
-              JOIN THE WHATSAPP BOOTCAMP NOW
+              JOIN THE BOOTCAMP NOW
             </Button>
           </a>
         </div>

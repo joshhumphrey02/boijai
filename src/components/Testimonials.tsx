@@ -54,21 +54,21 @@ export default function Testimonials() {
           ))}
         </div>
 
-        <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-4 px-4">
+        <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-4">
           <img
-            src="/testimony1.jpeg"
+            src="/test1.jpeg"
             alt="Jennifer's Business"
-            className="rounded-lg shadow-md object-cover w-full h-80"
+            className="rounded-lg shadow-md object-contain w-full h-[30rem]"
           />
           <img
-            src="/testimony2.jpeg"
+            src="/test2.jpeg"
             alt="Grace's Supermarket"
-            className="rounded-lg shadow-md object-cover w-full h-80"
+            className="rounded-lg shadow-md object-contain w-full h-[30rem]"
           />
           <img
-            src="/testimony3.jpeg"
+            src="/test3.jpeg"
             alt="Ebele's Boutique"
-            className="rounded-lg shadow-md object-cover w-full h-80"
+            className="rounded-lg shadow-md object-contain w-full h-[30rem]"
           />
         </div>
       </div>
