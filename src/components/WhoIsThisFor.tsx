@@ -5,7 +5,7 @@ export default function WhoIsThisFor() {
         <h2 className="text-4xl md:text-5xl font-semibold text-gray-900 mb-6">
           Is This Program Right for You?
         </h2>
-        <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-12">
+        <p className="text-lg hidden md:flex text-gray-600 max-w-2xl mx-auto mb-12">
           Whether you're growing a business, juggling a side hustle, or looking
           to build a valuable skill—this program offers systems and insights to
           help you thrive.

@@ -16,13 +16,14 @@ export default function App() {
         <HeroSection />
         <FeatureSection />
         <WhoIsThisFor />
+        <ContactCTA />
         <WHY />
         <CourseStructure />
         <BootcampStructure />
         <About />
+        <ContactCTA />
         <Testimonials />
         <FAQ />
-        <ContactCTA />
         <Footer />
       </main>
     </div>

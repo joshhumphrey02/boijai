@@ -7,8 +7,10 @@ export default function About() {
         </h1>
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="space-y-6 text-gray-700 text-lg leading-relaxed">
-            <p className="font-bold text-xl md:text-2xl text-gray-900">
-              Esther Oyeyemi Ogonniba
+            <p className=" text-xl md:text-2xl">
+              Hi, I’m Esther Ogonniba. I help business owners like you use tech
+              tools to manage sales, inventory, and records. Over 30+
+              entrepreneurs have learned from my classes.
             </p>
             <ul className="list-disc list-inside space-y-2">
               <li>

@@ -8,7 +8,7 @@ export function Header() {
       <div className="flex justify-between items-center py-4 text-sm ">
         <div>Call us +234 901 413 2309</div>
         <div className=" hidden md:flex">
-          Offers are on going. Jump right in
+          Registration is on going. Jump right in
         </div>
         <div className="hidden md:flex items-center space-x-4">
           <Separator
@@ -42,10 +42,7 @@ export function Header() {
           </nav> */}
         </div>
         <div className="flex items-center space-x-4">
-          <a
-            href="https://wa.me/2349014132309?text=Hi%20Bowjai%20Team%2C%20I%27m%20interested%20in%20joining%20the%20Bowjai%20Creative%20Bootcamp%20Program.%20Please%20send%20me%20more%20details."
-            target="_blank"
-          >
+          <a href="#contact">
             <Button className="bg-purple-600 cursor-pointer hover:bg-purple-700 text-white px-4 py-1 rounded-md">
               JOIN THE BOOTCAMP
             </Button>
