@@ -19,6 +19,7 @@ export default function App() {
         <ContactCTA />
         <WHY />
         <CourseStructure />
+        <ContactCTA />
         <BootcampStructure />
         <About />
         <ContactCTA />

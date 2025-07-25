@@ -17,7 +17,7 @@ export function HeroSection() {
           vendors, and anyone who wants to stop guessing in business.
         </h4>
         <h4 className="text-lg md:text-xl my-2 border-b-2 w-fit mx-auto py-1 ">
-          From 14-27 September
+          From 14th - 27th September 2025
         </h4>
 
         <div className="flex flex-col mb-6 items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4 mt-6 md:mt-8 2xl:mt-12">
