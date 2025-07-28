@@ -22,9 +22,10 @@ export default function App() {
             height="1"
             width="1"
             style={{ display: "none" }}
-            src="https://www.facebook.com/tr?id=924477043197205&ev=PageView&noscript=1"
+            src="https://www.facebook.com/tr?id=1489887248670053&ev=PageView&noscript=1"
           />
         </noscript>
+
         <WHY />
         <CourseStructure />
         <ContactCTA />
